@@ -1,4 +1,4 @@
-const CACHE = 'plan-sophie-rome-2027-v8k2q-a8cfeac977';
+const CACHE = 'plan-sophie-rome-2027-v8k2q-d3d2131d97';
 const PRECACHE = ['/', '/manifest.json', '/icon-192.png', '/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(PRECACHE).catch(()=>{})).then(()=>self.skipWaiting()));
