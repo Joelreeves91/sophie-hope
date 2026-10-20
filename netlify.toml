@@ -1,6 +1,9 @@
 [build]
   functions = "netlify/functions"
 
+[build.environment]
+  SECRETS_SCAN_OMIT_KEYS = "FIREBASE_API_KEY,FIREBASE_PROJECT_ID,PLAN_ID,STRAVA_VERIFY_TOKEN"
+
 [[headers]]
   for = "/sw.js"
   [headers.values]

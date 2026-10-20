@@ -1,17 +1,12 @@
 {
-  "name": "Sophie Hope · Abingdon Marathon",
-  "short_name": "Blueprint",
-  "description": "16-week marathon training plan · Abingdon · 18 Oct 2026",
+  "name": "Sophie - Rome Marathon",
+  "short_name": "Rome",
+  "description": "Training plan \u00b7 Rome Marathon \u00b7 Sun 14 Mar 2027",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0d1117",
   "theme_color": "#0d1117",
   "orientation": "portrait-primary",
-  "categories": [
-    "health",
-    "fitness",
-    "sports"
-  ],
   "icons": [
     {
       "src": "/icon-192.png",
